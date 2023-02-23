@@ -1,0 +1,93 @@
+.card{
+    height: 20rem;
+    width: 60rem;
+    margin: 30px 0px 30px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 80px -20px brown;
+    display: flex;
+}
+
+.left_card{
+    height: 100%-20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.right_card{
+    height: 100%;
+    width: 50%;
+}
+
+.right_card img{
+    height: 100%;
+    width: 100%;
+    border-radius:0px 20px 20px 0px;
+    -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 10%,rgba(0,0,0,1) 60%,rgba(0,0,0,0) 100%);
+}
+
+.name_container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.movie_details{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.movie_details h1{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.movie_details h6{
+    font-size: 13px;
+    font-weight: 400;
+    color: lightslategray;
+    margin: 0;
+}
+
+.movie_details div{
+    margin: 0;
+    display: flex;
+}
+
+.movie_details div #type{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: lightsteelblue;
+}
+
+.movie_details div #time{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px 4px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.movie_img img{
+    height: 100%;
+    width: 70px;
+}
+
+.details_container{
+    color: lightsteelblue;
+    font-size: 13px;
+}
+
+.name_container i{
+    color: rgb(89, 94, 99);
+    margin-left: 15px;
+    font-size: 19px;
+    margin-top: 80px;
+}
